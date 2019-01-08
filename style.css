@@ -1,0 +1,107 @@
+
+#page {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+#content {
+	flex-grow:1 ;
+	
+}
+
+#header {
+	display: flex;
+	justify-content: flex end;
+	flex-direction: row-reverse; 
+}
+#google {
+	display: flex;
+	align-items: center;
+	flex-direction: column-reverse;
+}
+
+#recherche_google {
+	display: flex;
+	justify-content: center;
+}
+.bouton_recherche {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#links {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.right_side {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row;
+}
+
+.left_side {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row;
+}
+
+
+
+/*
+}
+#france {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+#rightsize {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+	} */
+/* #publicite {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+#entreprise {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+#a_propos {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+*/
+
+
+#leftside {
+	display: flex;
+	flex-direction: row
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+/*
+#confidentialite {
+	display: flex;
+	flex-direction: row
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+#conditions {
+	display: flex;
+	flex-direction: row
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+*/
