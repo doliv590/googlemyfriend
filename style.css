@@ -1,3 +1,15 @@
+footer {
+	color:#222;
+	background: #f2f2f2;
+	
+}
+#france {
+	font-size: 15px;
+}
+#connexion {
+	border: 4px solid #222;
+}
+
 
 #page {
 	min-height: 100vh;
@@ -5,15 +17,30 @@
 	flex-direction: column;
 }
 #content {
-	flex-grow:1 ;
-	
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
 }
 
 #header {
 	display: flex;
-	justify-content: flex end;
-	flex-direction: row-reverse; 
+	justify-content: flex-end;
+	
 }
+
+.lienheader{
+	display: block;
+	justify-content: flex-end;
+	padding: 3px;
+}
+#logo {
+	display: flex;
+	align-items: center;
+}
+
+
 #google {
 	display: flex;
 	align-items: center;
@@ -29,79 +56,35 @@
 	flex-direction: row;
 	justify-content: center;
 }
+
+
 #links {
 	display: flex;
-	align-items: flex-end;
-	flex-direction: row;
 	justify-content: space-between;
+	align-items: row
 }
+
+
+#right_side {
+display: flex;
+justify-content: flex-start;
+}
+
+#left_side {
+display: flex;
+justify-content: flex-end;
+}
+
 
 .right_side {
-	display: flex;
-	align-items: flex-end;
-	flex-direction: row;
+	display: block;
+	padding: 5px;
+	justify-content: flex-end;
 }
+
 
 .left_side {
-	display: flex;
-	align-items: flex-end;
-	flex-direction: row;
-}
-
-
-
-/*
-}
-#france {
-	display: flex;
+	display: block;
+	padding: 5px;
 	justify-content: flex-start;
-	align-items: flex-end;
 }
-#rightsize {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: flex-end;
-	} */
-/* #publicite {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: flex-end;
-}
-#entreprise {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: flex-end;
-}
-#a_propos {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: flex-end;
-}
-*/
-
-
-#leftside {
-	display: flex;
-	flex-direction: row
-	justify-content: flex-end;
-	align-items: flex-start;
-}
-/*
-#confidentialite {
-	display: flex;
-	flex-direction: row
-	justify-content: flex-end;
-	align-items: flex-start;
-}
-#conditions {
-	display: flex;
-	flex-direction: row
-	justify-content: flex-end;
-	align-items: flex-start;
-}
-
-*/
